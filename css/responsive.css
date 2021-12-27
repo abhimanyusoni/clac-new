@@ -185,7 +185,7 @@
         width: calc(100% - 30px);
     }
     header.site-header .menu-wrapper a{
-        font-size: 12px;
+        font-size: 14px;
     }
     footer.site-footer .footer-bottom{
         display: block;
