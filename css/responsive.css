@@ -36,6 +36,15 @@
     .my-account-wrapper .main-content .content-block{
         width: calc(100% - 250px);
     }
+    .my-account-wrapper .main-content .content-block .block-head .green-btn{
+        height: 48px;
+    }
+    .my-account-wrapper .main-content .content-block .concierge-block h2{
+        font-size: 45px;
+    }
+    .my-account-wrapper .main-content .content-block .concierge-block {
+        padding: 30px 20px 24px;
+    }
     
 }
 
@@ -108,6 +117,9 @@
     footer.site-footer .footer-wrapper .col-one:first-child{
         margin-bottom: 30px;
     }
+    .my-account-wrapper .main-content .content-block label.disappeared{
+        display: none;
+    }
 }
 
 @media (max-width: 767px){
@@ -162,7 +174,8 @@
     .my-account-wrapper .main-content .content-block .page-title{
         font-size: 18px;
     }
-    .my-account-wrapper .main-content .content-block .form-control{
+    .my-account-wrapper .main-content .content-block .form-control,
+    .my-account-wrapper .main-content .content-block .save-card{
         height: 50px;
         padding: 5px 15px;
     }
@@ -197,5 +210,19 @@
     footer.site-footer .footer-bottom .social-media a{
         margin-left: 0;
         margin-right: 24px;
+    }
+    .my-account-wrapper .main-content .content-block .concierge-block h2{
+        font-size: 36px;
+    }
+    .my-account-wrapper .main-content .content-block .block-head .green-btn{
+        height: auto; padding: 0 !important;
+        background: transparent; color: #00C8B1;
+        margin-top: -1px;
+        min-width: auto;
+        font-size: 14px;
+        text-decoration: underline;
+    }
+    .my-account-wrapper .main-content .content-block .block-head{
+        align-items: flex-start;
     }
 }

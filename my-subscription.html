@@ -15,7 +15,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
-    <title>clac - My Information</title>
+    <title>clac - My Subscription</title>
 </head>
 
 <body>
@@ -71,10 +71,10 @@
                         <a href="#" class="show-profile">Show profile</a>
                         <ul class="menu-list">
                             <li>
-                                <a href="./index.html" class="active">My Information</a>
+                                <a href="./index.html">My Information</a>
                             </li>
                             <li>
-                                <a href="./my-subscription.html">My Subscription</a>
+                                <a href="./my-subscription.html" class="active">My Subscription</a>
                             </li>
                             <li>
                                 <a href="#">Order History</a>
@@ -89,55 +89,73 @@
                     </div>
                 </div>
                 <div class="content-block">
-                    <h3 class="page-title">My Information</h3>
+                    <div class="block-head">
+                        <div class="left-head">
+                            <h3 class="page-title">My Subscription</h3>
+                        </div>
+                        <div class="right-head">
+                            <button class="green-btn">Credit my account</button>
+                        </div>
+                    </div>
                     <form action="">
                         <div class="row">
                             <div class="col-12">
                                 <div class="mb-3">
-                                    <label for="first-name" class="form-label">First name</label>
-                                    <input type="text" id="first-name" class="form-control"
-                                        placeholder="Enter first name">
+                                    <label class="form-label">Your digital concierge service</label>
+                                    <div class="concierge-block">
+                                        <h2>100,00€ <span>/ month</span></h2>
+                                    </div>
+                                    <p class="subscription-note">You subscribed on : <span> 03/02/2020 09:02 </span> <br/>
+                                        The renewal date of your subscription is : <span> 03/10/2021 09:10 </span></p>
                                 </div>
                             </div>
-                            <div class="col-12">
+                            <div class="col-lg-6">
                                 <div class="mb-3">
-                                    <label for="last-name" class="form-label">Last name</label>
-                                    <input type="text" id="last-name" class="form-control"
-                                        placeholder="Enter last name">
+                                    <label class="form-label">Payment method</label>
+                                    <input type="text" class="form-control"
+                                        placeholder="Card number">
                                 </div>
                             </div>
-                            <div class="col-12">
+                            <div class="col-lg-6">
                                 <div class="mb-3">
-                                    <label for="email" class="form-label">Email address</label>
-                                    <input type="email" id="email" class="form-control"
-                                        placeholder="Enter your email">
-                                    <div class="modify">
-                                        <a href="#">Modify my email address</a>
+                                    <label class="form-label disappeared">Expiration date</label>
+                                    <input type="text" class="form-control"
+                                        placeholder="Expiration date">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="mb-3 mb-lg-4">
+                                    <input type="text" class="form-control"
+                                        placeholder="Name of the holder">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-7 col-8">
+                                        <div class="mb-3 mb-lg-4">
+                                            <input type="text" class="form-control"
+                                                placeholder="Name of the holder">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 col-4">
+                                        <div class="mb-3 mb-lg-4">
+                                            <button class="green-btn save-card w-100" disabled>SAVE</button> 
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="mb-3">
-                                    <label for="password" class="form-label">Password</label>
-                                    <input type="password" id="password" class="form-control"
-                                        placeholder="Enter password">
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="mb-3">
-                                    <label for="phone" class="form-label">Phone</label>
-                                    <input type="tel" id="phone" class="form-control"
-                                        placeholder="Enter phone number">
-                                    <div class="modify">
-                                        <a href="#">Modify my phone number</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="mb-3">
-                                    <label for="address" class="form-label">Address</label>
+                                    <label class="form-label">Promo Code</label>
                                     <input type="text" id="address" class="form-control"
-                                        placeholder="Enter address">
+                                        placeholder="AXS68SJG9">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="mb-3">
+                                    <label class="form-label">Sponsor Code</label>
+                                    <input type="text" id="address" class="form-control"
+                                        placeholder="AXS68SJG9">
                                 </div>
                             </div>
                             <div class="col-12">

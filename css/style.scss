@@ -28,6 +28,24 @@ ul{
     margin-left: 0;
 }
 
+.green-btn {
+    background: #00C8B1;
+    color: #fff;
+    padding: 6px 15px;
+    min-width: 165px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    font-weight: 500;
+    border: none;
+
+    &:hover {
+        background: #029987;
+        color: #fff;
+    }
+}
+
 header {
     &.site-header {
         display: flex;
@@ -109,23 +127,8 @@ header {
         .menu-wrapper {
             margin-left: auto;
 
-
-            .green-btn {
-                background: #00C8B1;
-                color: #fff;
-                text-transform: uppercase;
-                padding: 6px 15px;
-                width: 165px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                border-radius: 50px;
-                margin-left: 40px;
-                font-weight: 500;
-
-                &:hover {
-                    background: #029987;
-                }
+            .green-btn{
+                margin-left: 45px;
             }
 
             .blue-btn {
@@ -287,6 +290,46 @@ footer{
             background: #fff;
             padding: 25px 30px 50px 30px;
 
+            .block-head{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .green-btn{
+                    height: 55px;
+                    padding: 5px 30px;
+                    font-size: 16px;
+                }
+            }
+
+            .concierge-block{
+                padding: 50px 20px 40px;
+                box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.06);
+                border-radius: 10px;
+                text-align: center;
+
+                h2{
+                    color: #00C8B1;
+                    font: 700 68px "Lato";
+
+                    span{
+                        display: block;
+                        font-size: 18px;
+                        font-weight: 500;
+                        color: #B7B7B7;
+                    }
+                }
+            }
+            .subscription-note{
+                font: 300 14px "Overpass";
+                line-height: 1.7;
+                margin-top: 8px;
+
+                span{
+                    font-weight: 600;
+                }
+            }
+
             .page-title{
                 font: 700 24px "Overpass";
                 color: #00C8B1;
@@ -294,6 +337,10 @@ footer{
             }
             label{
                 font: 500 14px "Overpass";
+
+                &.disappeared{
+                    opacity: 0;
+                }
             }
             .form-control{
                 outline: none !important;
@@ -336,6 +383,15 @@ footer{
                 &:hover{
                     background: transparent;
                     color: #00C8B1;
+                }
+            }
+            .save-card{
+                height: 55px;
+                min-width: auto;
+
+                &:disabled{
+                    background: #C8C8C8;
+                    cursor: not-allowed;
                 }
             }
         }
