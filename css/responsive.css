@@ -1,0 +1,201 @@
+@media (max-width: 1440px){
+    body{
+        font-size: 16px;
+    }
+    .my-account-wrapper .section-title{
+        font-size: 45px;
+    }
+    .my-account-wrapper .main-content .left-sidebar .user-img{
+        width: 170px;
+        height: 170px;
+    }
+    .my-account-wrapper{
+        background-size: 100% 375px;
+    }
+}
+
+@media (max-width: 1280px){
+    header.site-header .menu-wrapper .green-btn{
+        margin-left: 20px;
+    }
+    header.site-header .menu-wrapper .green-btn,
+    header.site-header .menu-wrapper .blue-btn{
+        width: 130px;
+    }
+    header.site-header .header-wrapper .notification{
+        position: unset; margin-left: 10px;
+    }
+    header.site-header .header-wrapper .notification img{
+        max-width: 32px;
+    }
+    header.site-header .header-wrapper .notification.has-notification::after {
+        top: 12px;
+        width: 8px;
+        height: 8px;
+    }
+    .my-account-wrapper .main-content .content-block{
+        width: calc(100% - 250px);
+    }
+    
+}
+
+@media (max-width: 991px){
+    body{
+        font-size: 14px;
+        padding-top: 68px;
+    }
+    header.site-header .header-wrapper .mobile-toggler{
+        display: block;
+        margin-left: auto;
+    }
+    header.site-header .header-wrapper .notification img {
+        max-width: 24px;
+    }
+    header.site-header .header-wrapper .notification.has-notification::after {
+        top: 6px;
+        width: 6px;
+        height: 6px;
+    }
+    header.site-header .header-wrapper .notification{
+        margin-left: 12px;
+    }
+    header.site-header .menu-wrapper{
+        position: fixed;
+        left: -252px;
+        top: 0;
+        width: 250px;
+        height: 100vh;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        -webkit-transition: 0.25s all ease;
+    }
+    header.site-header .menu-wrapper.opened{
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
+        left: 0;
+    }
+    header.site-header .menu-wrapper a{
+        margin: 5px 0 !important;
+        text-align: center;
+        display: block;
+    }
+    header.site-header .menu-wrapper a.green-btn{
+        margin-bottom: 12px !important;
+        margin-top: 10px !important;
+    }
+    header.site-header .menu-wrapper a.green-btn,
+    header.site-header .menu-wrapper a.blue-btn{
+        margin-left: auto !important;
+        margin-right: auto  !important;
+    }
+    footer.site-footer .footer-wrapper{
+        display: block;
+    }
+    footer.site-footer .footer-wrapper .col-one:not(:last-child){
+        margin-bottom: 20px;
+    }
+    footer.site-footer .footer-wrapper .col-one .col-title{
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+    footer.site-footer .footer-wrapper{
+        padding: 30px 0 40px;
+    }
+    footer.site-footer .footer-bottom{
+        padding-bottom: 25px;
+    }
+    footer.site-footer .footer-wrapper .col-one:first-child{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px){
+    body{
+        padding-top: 62px;
+    }
+    header.site-header.sticked{
+        padding: 12px 0;
+    }
+    header.site-header .menu-wrapper{
+        width: 230px;
+        left: -232px;
+    }
+    .logo-wrapper img{
+        max-width: 80px;
+    }
+    header.site-header .header-wrapper .mobile-toggler span{
+        margin: 3px 0;
+    }
+    header.site-header .header-wrapper .mobile-toggler.close span:last-child{
+        margin-top: -10px;
+    }
+    header.site-header .header-wrapper .mobile-toggler span{
+        width: 18px;
+    }
+    .my-account-wrapper .main-content .left-sidebar,
+    .my-account-wrapper .main-content .content-block{
+        width: 100%;
+    }
+    .my-account-wrapper{
+        padding: 40px 0 20px;
+        background-size: 100% 215px;
+    }
+    .my-account-wrapper .section-title{
+        font-size: 30px;
+    }
+    .my-account-wrapper .main-content .left-sidebar .user-img{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+    .my-account-wrapper .main-content{
+        margin-top: 20px;
+    }
+    .my-account-wrapper .main-content .left-sidebar .sidebar-menus .username{
+        font-size: 20px;
+        line-height: 1.2;
+    }
+    .my-account-wrapper .main-content .content-block{
+        padding: 18px 15px;
+    }
+    .my-account-wrapper .main-content .content-block .page-title{
+        font-size: 18px;
+    }
+    .my-account-wrapper .main-content .content-block .form-control{
+        height: 50px;
+        padding: 5px 15px;
+    }
+    .my-account-wrapper .main-content .content-block .submit-btn{
+        width: 120px;
+        height: 45px;
+        margin-top: 10px;
+    }
+    footer.site-footer .footer-wrapper .col-one p,
+    footer.site-footer .footer-wrapper .col-one a{
+        font-size: 14px;
+        line-height: 1.9;
+    }
+    header.site-header .menu-wrapper .navbar-nav .nav-item:nth-child(5){
+        border-bottom: 1px solid #dedede;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    header.site-header .menu-wrapper > nav{
+        width: calc(100% - 30px);
+    }
+    header.site-header .menu-wrapper a{
+        font-size: 12px;
+    }
+    footer.site-footer .footer-bottom{
+        display: block;
+    }
+    footer.site-footer .footer-bottom .social-media{
+        padding-top: 35px;
+        padding-bottom: 20px;
+    }
+    footer.site-footer .footer-bottom .social-media a{
+        margin-left: 0;
+        margin-right: 24px;
+    }
+}
